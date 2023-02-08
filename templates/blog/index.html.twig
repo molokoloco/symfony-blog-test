@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+<h1>Welcome to Juju Symfony test blog!</h1>
+
+<section class="articles">
+
+    {% for article in articles %}
+    <article>
+        <h2>{{ article.title }} [{{ article.createdAt | date('d/m/Y') }} @ {{ article.createdAt | date('H:m') }}]</h2>
+        <div class="content">
+            <img src="{{ article.image }}" alt="">
+            {{ article.content | raw }}
+            <a href="{{ path('blog_show', {'id': article.id}) }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+    {% endfor %}
+
+</section>
+
+{% endblock %}
