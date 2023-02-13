@@ -31,8 +31,8 @@ The standard foundation on which the best PHP applications are built. Choose any
 Speed up the creation and maintenance of your PHP web applications. End repetitive coding tasks and enjoy the power of controlling your code.
 ... A Philosophy and a Community
 
-Basically, a framework consists of:
-A toolbox - a set of prefabricated, rapidly integratable software components. This means that you will have to write less code, with less risk of error. This also means greater productivity and the ability to devote more time to doing those things which provide greater added value, such as managing guiding principles, side effects, etc.
+Basically, a framework consists of:  
+A toolbox - a set of prefabricated, rapidly integratable software components. This means that you will have to write less code, with less risk of error. This also means greater productivity and the ability to devote more time to doing those things which provide greater added value, such as managing guiding principles, side effects, etc.  
 A methodology – an “assembly diagram” for applications. A structured approach may seem constraining at first. But in reality it allows developers to work both efficiently and effectively on the most complex aspects of a task, and the use of Best Practices guarantees the stability, maintainability and upgradeability of the applications you develop.
 
 Use Composer to install any of the Symfony Components
