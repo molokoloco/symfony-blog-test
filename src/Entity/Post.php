@@ -7,11 +7,13 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
+use ApiPlateform\Core\Annotation\ApiResource;
 
 use App\Repository\PostRepository;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\PostRepository")
+ * @ApiResource
  */
 class Post
 {

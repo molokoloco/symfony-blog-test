@@ -2,11 +2,8 @@
 
 Thank to https://github.com/liorchamla/  
 
-Tuto 1 :  
-https://www.youtube.com/watch?v=UTusmVpwJXo  
-Tuto 2 :  
-https://www.youtube.com/watch?v=SG7GgcnR1F4&list=PLpUhHhXoxrjdQLodxlHFY09_9XzqdPBW8&index=13
-https://github.com/liorchamla/cours-api-symfony
+Tuto 1 : https://www.youtube.com/watch?v=UTusmVpwJXo  
+Tuto 2 : https://www.youtube.com/watch?v=SG7GgcnR1F4&list=PLpUhHhXoxrjdQLodxlHFY09_9XzqdPBW8&index=13 ++
 
  + **Doctrine :** Accès aux données (ORM) L'accès aux données dans les objets de notre application se reflète dans la base de données. Les entités représentent des tables. Le manager met à jour les tables.
  + **Repository :** sélection des données. Entity/Manager/Repository.
@@ -31,6 +28,7 @@ $ composer require orm-fixtures --dev
 $ php bin/console make:fixtures
 $ php bin/console doctrine:fixtures:load
 $ php bin/console d:f:l --no-interaction
+$ composer require api ### https://api-platform.com
 ```
 
 ## Symfony
