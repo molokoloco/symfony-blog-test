@@ -1,6 +1,12 @@
 # symfony-blog-test
 
-Thank to https://www.youtube.com/watch?v=UTusmVpwJXo 
+Thank to https://github.com/liorchamla/  
+
+Tuto 1 :  
+https://www.youtube.com/watch?v=UTusmVpwJXo  
+Tuto 2 :  
+https://www.youtube.com/watch?v=SG7GgcnR1F4&list=PLpUhHhXoxrjdQLodxlHFY09_9XzqdPBW8&index=13
+https://github.com/liorchamla/cours-api-symfony
 
  + **Doctrine :** Accès aux données (ORM) L'accès aux données dans les objets de notre application se reflète dans la base de données. Les entités représentent des tables. Le manager met à jour les tables.
  + **Repository :** sélection des données. Entity/Manager/Repository.
@@ -8,19 +14,23 @@ Thank to https://www.youtube.com/watch?v=UTusmVpwJXo
 Controller : Traitement (Route > Requête > Réponse)
  + **Twig :** Rendu des données. The flexible, fast, and secure template engine for PHP : escaping, iterate, inheritance
 
-```shell
+```cmd
 $ cd ...
+$ composer install
 $ composer require symfony/web-server-bundle --dev ^4.4.2
 $ php bin/console server:run
 => http://127.0.0.1:8000/ 
+$ php -S localhost:3000 -t public
 $ php bin/console make:controller
 $ php bin/console doctrine:database:create
 $ php bin/console make:entity
 $ php bin/console make:migration
+$ php bin/console d:m:m
 $ php bin/console doctrine:migrations:migrate
 $ composer require orm-fixtures --dev
 $ php bin/console make:fixtures
 $ php bin/console doctrine:fixtures:load
+$ php bin/console d:f:l --no-interaction
 ```
 
 ## Symfony
