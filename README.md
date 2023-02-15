@@ -7,7 +7,8 @@ Tuto 2 : https://www.youtube.com/watch?v=SG7GgcnR1F4&list=PLpUhHhXoxrjdQLodxlHFY
 
  + **Doctrine :** Accès aux données (ORM) L'accès aux données dans les objets de notre application se reflète dans la base de données. Les entités représentent des tables. Le manager met à jour les tables.
  + **Repository :** sélection des données. Entity/Manager/Repository.
- + Migration (évolution BDD) **Fixtures :** fakes data
+ + **Migration :** évolution BDD
+ + **Fixtures :** fakes data
 Controller : Traitement (Route > Requête > Réponse)
  + **Twig :** Rendu des données. The flexible, fast, and secure template engine for PHP : escaping, iterate, inheritance
 
